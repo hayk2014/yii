@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12.05.2015, 11:42:23
+    Author     : User
+*/
+
+/*header*/
+.wrap {
+    background-color: rgb(237, 237, 237);
+}
+
+.nav-bar-custom{
+    background-color: #83A6C2;
+    border-top: 1px solid rgb(237, 237, 237);
+}
+.nav-bar-sign{
+    background-color: transparent;
+    border: none;
+}
+.header{
+    /* background-image: url(/images/header.jpg); */
+    background-image: url(/images/header_3.jpg);
+    height: 140px;
+}
+.main-container{
+    margin-top: 100px;
+    background-color: white;
+}
+
+.main-menu-nav>li>a,.main-menu-header>li>a{
+    color: white !important;
+}
+.main-menu-nav>li>a:hover{
+    color: rgb(43, 70, 128) !important;    
+}
+.main-menu-header >li>a{
+    color: #9d9d9d !important;    
+}
+.main-menu-nav >li.active>a,.main-menu-header >li.active>a{
+    background: none !important;
+    text-decoration: underline;
+}
+.nav > li { 
+    font-size: 15px;
+    font-family: initial;
+}
+.header-date{
+    display: inline;
+    color: rgb(18, 48, 113);
+    font-family: monospace;
+    font-size: 27px;
+    font-weight: 900;
+}
+/*end header*/
+
+/*index*/
+.index-item{
+    border-right: 1px solid #84a6c1;
+    margin: 5px 24px;  
+}
+.most-popular{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #E63100;
+    border-left: 1px solid white; 
+    padding-left: 15px;
+}
+.most-popular:hover{
+    border-left: 1px solid #E63100; 
+}
+.post-title{
+    float: right;
+    display: inline;
+    width: 60%;
+    text-align: center;
+}
+.post-title p{
+    display: inline;
+    margin-left: 20px;
+    font-size: 15px;
+    font-style: initial;
+    font-weight: bold;
+}
+.post-content{
+    margin-top: 15px;
+}
+@media (max-width: 1200px){
+    .col-md-3 {
+        /*margin: 5px 40px;*/
+    }
+}
+/*end index*/
